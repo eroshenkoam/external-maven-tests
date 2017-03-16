@@ -14,7 +14,7 @@
     <dependencies>
         <dependency>
             <groupId>io.qameta.samples</groupId>
-            <artifactId>product-commons</artifactId>
+            <artifactId>product-rest-client</artifactId>
         </dependency>
         <dependency>
             <groupId>junit</groupId>

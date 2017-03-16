@@ -11,8 +11,9 @@
 
     <modules>
         <module>product-commons</module>
-        <module>product-web-tests</module>
+        <module>product-rest-client</module>
         <module>product-rest-tests</module>
+        <module>product-web-tests</module>
     </modules>
 
     <dependencyManagement>
@@ -21,6 +22,22 @@
                 <groupId>io.qameta.samples</groupId>
                 <artifactId>product-commons</artifactId>
                 <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.qameta.samples</groupId>
+                <artifactId>product-rest-client</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.squareup.retrofit2</groupId>
+                <artifactId>retrofit</artifactId>
+                <version>2.2.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.squareup.retrofit2</groupId>
+                <artifactId>converter-gson</artifactId>
+                <version>2.2.0</version>
             </dependency>
 
             <dependency>

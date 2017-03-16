@@ -9,16 +9,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>product-commons</artifactId>
+    <artifactId>product-rest-client</artifactId>
 
     <dependencies>
         <dependency>
-            <groupId>com.squareup.retrofit2</groupId>
-            <artifactId>retrofit</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.squareup.retrofit2</groupId>
-            <artifactId>converter-gson</artifactId>
+            <groupId>io.qameta.samples</groupId>
+            <artifactId>product-commons</artifactId>
         </dependency>
     </dependencies>
 
