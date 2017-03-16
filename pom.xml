@@ -28,6 +28,18 @@
                 <artifactId>product-rest-client</artifactId>
                 <version>${project.version}</version>
             </dependency>
+            <dependency>
+                <groupId>io.qameta.samples</groupId>
+                <artifactId>product-rest-tests</artifactId>
+                <version>${project.version}</version>
+                <type>test-jar</type>
+            </dependency>
+            <dependency>
+                <groupId>io.qameta.samples</groupId>
+                <artifactId>product-web-tests</artifactId>
+                <version>${project.version}</version>
+                <type>test-jar</type>
+            </dependency>
 
             <dependency>
                 <groupId>com.squareup.retrofit2</groupId>
