@@ -1,13 +1,11 @@
 package product.web;
 
-import org.junit.Test;
-import org.junit.experimental.categories.Category;
-import product.commons.junit.Regression;
 
-@Category(Regression.class)
+import org.testng.annotations.Test;
+
 public class RegressionWebTest {
 
-    @Test
+    @Test(groups = "regression")
     public void justRegressionWebTestWithoutAnyChecks() {
 
     }

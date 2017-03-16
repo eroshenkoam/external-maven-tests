@@ -1,13 +1,11 @@
 package product.rest;
 
-import org.junit.Test;
-import org.junit.experimental.categories.Category;
-import product.commons.junit.Regression;
 
-@Category(Regression.class)
+import org.testng.annotations.Test;
+
 public class RegressionRestTest {
 
-    @Test
+    @Test(groups = "regression")
     public void justRegressionRestTestWithoutAnyChecks() {
 
     }

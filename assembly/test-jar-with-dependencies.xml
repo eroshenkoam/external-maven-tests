@@ -14,7 +14,7 @@
             <useProjectAttachments>true</useProjectAttachments>
             <unpack>true</unpack>
             <excludes>
-                <exclude>junit:junit</exclude>
+                <exclude>org.testng:testng</exclude>
             </excludes>
         </dependencySet>
     </dependencySets>

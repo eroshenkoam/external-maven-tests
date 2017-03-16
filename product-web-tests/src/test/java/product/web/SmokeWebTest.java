@@ -1,13 +1,10 @@
 package product.web;
 
-import org.junit.Test;
-import org.junit.experimental.categories.Category;
-import product.commons.junit.Smoke;
+import org.testng.annotations.Test;
 
-@Category(Smoke.class)
 public class SmokeWebTest {
 
-    @Test
+    @Test(groups = "smoke")
     public void justSmokeWebTestWithoutAnyChecks() {
 
     }

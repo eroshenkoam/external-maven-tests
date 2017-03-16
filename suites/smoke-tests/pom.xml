@@ -26,8 +26,8 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
         </dependency>
     </dependencies>
 
@@ -38,7 +38,7 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.15</version>
                 <configuration>
-                    <groups>product.commons.junit.Smoke</groups>
+                    <groups>smoke</groups>
                     <dependenciesToScan>
                         <dependency>io.qameta.samples:product-rest-tests</dependency>
                         <dependency>io.qameta.samples:product-web-tests</dependency>

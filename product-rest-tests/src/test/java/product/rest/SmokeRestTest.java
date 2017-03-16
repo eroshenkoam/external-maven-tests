@@ -1,13 +1,11 @@
 package product.rest;
 
-import org.junit.Test;
-import org.junit.experimental.categories.Category;
-import product.commons.junit.Smoke;
 
-@Category(Smoke.class)
+import org.testng.annotations.Test;
+
 public class SmokeRestTest {
 
-    @Test
+    @Test(groups = "smoke")
     public void justSmokeRestTestWithoutAnyChecks() {
 
     }
